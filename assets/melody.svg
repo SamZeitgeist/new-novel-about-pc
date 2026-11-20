@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480">
+  <g stroke-linejoin="round">
+    <!-- уши -->
+    <path d="M95 92 C58 102 36 152 38 220 C40 274 48 318 64 338 C78 356 98 344 100 318 C102 284 110 230 124 186 Z"
+      fill="#f7c8da" stroke="#3a2f3a" stroke-width="4.5"/>
+    <path d="M265 92 C302 102 324 152 322 220 C320 274 312 318 296 338 C282 356 262 344 260 318 C258 284 250 230 236 186 Z"
+      fill="#f7c8da" stroke="#3a2f3a" stroke-width="4.5"/>
+    <path d="M92 132 C68 142 56 182 58 228 C60 268 66 302 76 318 C84 330 90 322 92 304 C94 274 102 226 112 194 Z"
+      fill="#fbe3ec"/>
+    <path d="M268 132 C292 142 304 182 302 228 C300 268 294 302 284 318 C276 330 270 322 268 304 C266 274 258 226 248 194 Z"
+      fill="#fbe3ec"/>
+
+    <!-- платье -->
+    <path d="M132 252 C118 298 108 342 106 384 L254 384 C252 342 242 298 228 252 Z"
+      fill="#f7c8da" stroke="#3a2f3a" stroke-width="4.5"/>
+    <path d="M126 380 q10 17 20 0 q10 17 20 0 q10 17 20 0 q10 17 20 0 q10 17 20 0 q10 17 20 0 q10 17 20 0"
+      fill="#fbe3ec" stroke="#3a2f3a" stroke-width="3.5"/>
+    <path d="M120 350 C150 364 210 364 240 350" stroke="#fbe3ec" stroke-width="4" fill="none" opacity=".8" stroke-linecap="round"/>
+    <path d="M150 262 C166 278 194 278 210 262" stroke="#e8a9c1" stroke-width="4" fill="none" opacity=".7" stroke-linecap="round"/>
+
+    <!-- лапки -->
+    <ellipse cx="108" cy="326" rx="21" ry="25" fill="#fff8fb" stroke="#3a2f3a" stroke-width="3.5"/>
+    <ellipse cx="252" cy="326" rx="21" ry="25" fill="#fff8fb" stroke="#3a2f3a" stroke-width="3.5"/>
+    <path d="M101 321 q7 5 14 0 M245 321 q7 5 14 0" stroke="#d6bcc8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- капюшон -->
+    <path d="M180 48 C120 48 82 94 78 158 C74 214 66 262 70 290 C74 310 96 316 112 298 C128 278 132 240 136 204 C140 162 156 136 180 136 C204 136 220 162 224 204 C228 240 232 278 248 298 C264 316 286 310 290 290 C294 262 286 214 282 158 C278 94 240 48 180 48 Z"
+      fill="#f7c8da" stroke="#3a2f3a" stroke-width="4.5"/>
+    <path d="M116 96 C140 76 166 70 192 76" stroke="#fbe3ec" stroke-width="5" fill="none" opacity=".75" stroke-linecap="round"/>
+
+    <!-- лицо -->
+    <ellipse cx="180" cy="180" rx="92" ry="86" fill="#fbe3ec" stroke="#3a2f3a" stroke-width="4"/>
+    <ellipse cx="180" cy="182" rx="82" ry="76" fill="#fff8fb" stroke="#3a2f3a" stroke-width="3.5"/>
+    <ellipse cx="180" cy="222" rx="24" ry="10" fill="#e8a9c1" opacity=".25"/>
+
+    <!-- глаза -->
+    <ellipse cx="146" cy="184" rx="20" ry="27" fill="#2a232d"/>
+    <ellipse cx="214" cy="184" rx="20" ry="27" fill="#2a232d"/>
+    <ellipse cx="139" cy="173" rx="7" ry="9" fill="#ffffff"/>
+    <ellipse cx="207" cy="173" rx="7" ry="9" fill="#ffffff"/>
+    <circle cx="152" cy="195" r="3.2" fill="#ffffff" opacity=".85"/>
+    <circle cx="220" cy="195" r="3.2" fill="#ffffff" opacity=".85"/>
+    <path d="M128 174 l-9 -7 M128 184 l-10 -2" stroke="#2a232d" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M232 174 l9 -7 M232 184 l10 -2" stroke="#2a232d" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="122" cy="216" rx="17" ry="8" fill="#ffb8d9" opacity=".55"/>
+    <ellipse cx="238" cy="216" rx="17" ry="8" fill="#ffb8d9" opacity=".55"/>
+    <ellipse cx="180" cy="211" rx="7" ry="5" fill="#f08fb2"/>
+    <path d="M172 220 q8 7 16 0" stroke="#3a2f3a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- большой бант -->
+    <g transform="translate(180 78) rotate(-5)">
+      <path d="M0 0 C-18 -30 -58 -42 -82 -24 C-98 -12 -92 14 -70 26 C-48 38 -20 28 0 8 Z"
+        fill="#3a333c" stroke="#1f1923" stroke-width="4.5"/>
+      <path d="M0 0 C18 -30 58 -42 82 -24 C98 -12 92 14 70 26 C48 38 20 28 0 8 Z"
+        fill="#3a333c" stroke="#1f1923" stroke-width="4.5"/>
+      <path d="M-16 -8 C-34 -24 -60 -32 -76 -20" stroke="#5a525e" stroke-width="3" fill="none" opacity=".7" stroke-linecap="round"/>
+      <path d="M16 -8 C34 -24 60 -32 76 -20" stroke="#5a525e" stroke-width="3" fill="none" opacity=".7" stroke-linecap="round"/>
+      <path d="M-4 -2 C-14 -18 -44 -30 -68 -16" stroke="#6c6470" stroke-width="2.5" fill="none"
+        stroke-dasharray="2 8" stroke-linecap="round" opacity=".85"/>
+      <path d="M4 -2 C14 -18 44 -30 68 -16" stroke="#6c6470" stroke-width="2.5" fill="none"
+        stroke-dasharray="2 8" stroke-linecap="round" opacity=".85"/>
+      <ellipse cx="0" cy="4" rx="18" ry="22" fill="#332c36" stroke="#1f1923" stroke-width="4"/>
+      <path d="M-5 -8 q9 10 0 20" stroke="#6c6470" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- шнуровка на ушах -->
+    <g stroke="#3a2f3a" stroke-width="6" stroke-linecap="round" fill="none">
+      <path d="M56 198 L96 226"/><path d="M96 198 L56 226"/>
+      <path d="M52 240 L92 268"/><path d="M92 240 L52 268"/>
+      <path d="M50 282 L90 310"/><path d="M90 282 L50 310"/>
+      <path d="M304 198 L264 226"/><path d="M264 198 L304 226"/>
+      <path d="M308 240 L268 268"/><path d="M268 240 L308 268"/>
+      <path d="M310 282 L270 310"/><path d="M270 282 L310 310"/>
+    </g>
+    <g transform="translate(52 186) scale(.55)" stroke-linejoin="round">
+      <path d="M0 0 C-10 -14 -30 -18 -36 -6 C-40 4 -26 12 0 4 Z" fill="#3a333c" stroke="#241d27" stroke-width="3"/>
+      <path d="M0 0 C10 -14 30 -18 36 -6 C40 4 26 12 0 4 Z" fill="#3a333c" stroke="#241d27" stroke-width="3"/>
+      <ellipse cx="0" cy="2" rx="7" ry="8" fill="#332c36" stroke="#241d27" stroke-width="3"/>
+    </g>
+    <g transform="translate(308 186) scale(-.55 .55)" stroke-linejoin="round">
+      <path d="M0 0 C-10 -14 -30 -18 -36 -6 C-40 4 -26 12 0 4 Z" fill="#3a333c" stroke="#241d27" stroke-width="3"/>
+      <path d="M0 0 C10 -14 30 -18 36 -6 C40 4 26 12 0 4 Z" fill="#3a333c" stroke="#241d27" stroke-width="3"/>
+      <ellipse cx="0" cy="2" rx="7" ry="8" fill="#332c36" stroke="#241d27" stroke-width="3"/>
+    </g>
+
+    <!-- воротник и бант на груди -->
+    <path d="M144 268 Q180 300 216 268 Q208 312 180 318 Q152 312 144 268 Z"
+      fill="#fff8fb" stroke="#3a2f3a" stroke-width="3.5"/>
+    <g transform="translate(180 298)" stroke-linejoin="round">
+      <path d="M0 0 C-12 -12 -32 -14 -38 -2 C-42 8 -26 16 0 6 Z" fill="#3a333c" stroke="#241d27" stroke-width="3.2"/>
+      <path d="M0 0 C12 -12 32 -14 38 -2 C42 8 26 16 0 6 Z" fill="#3a333c" stroke="#241d27" stroke-width="3.2"/>
+      <ellipse cx="0" cy="2" rx="8" ry="9" fill="#332c36" stroke="#241d27" stroke-width="3"/>
+      <path d="M0 16 C-10 6 -18 12 -12 22 L0 34 L12 22 C18 12 10 6 0 16 Z"
+        fill="#fff8fb" stroke="#3a2f3a" stroke-width="2.5"/>
+      <path d="M-2 18 q-3 5 0 9" stroke="#ffb8d9" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- бантики на платье -->
+    <g transform="translate(140 352) scale(.62)" stroke-linejoin="round">
+      <path d="M0 0 C-10 -14 -30 -18 -36 -6 C-40 4 -26 12 0 4 Z" fill="#3a333c" stroke="#241d27" stroke-width="3"/>
+      <path d="M0 0 C10 -14 30 -18 36 -6 C40 4 26 12 0 4 Z" fill="#3a333c" stroke="#241d27" stroke-width="3"/>
+      <ellipse cx="0" cy="2" rx="7" ry="8" fill="#332c36" stroke="#241d27" stroke-width="3"/>
+    </g>
+    <g transform="translate(220 352) scale(.62)" stroke-linejoin="round">
+      <path d="M0 0 C-10 -14 -30 -18 -36 -6 C-40 4 -26 12 0 4 Z" fill="#3a333c" stroke="#241d27" stroke-width="3"/>
+      <path d="M0 0 C10 -14 30 -18 36 -6 C40 4 26 12 0 4 Z" fill="#3a333c" stroke="#241d27" stroke-width="3"/>
+      <ellipse cx="0" cy="2" rx="7" ry="8" fill="#332c36" stroke="#241d27" stroke-width="3"/>
+    </g>
+
+    <!-- туфельки -->
+    <ellipse cx="142" cy="424" rx="34" ry="26" fill="#332c36" stroke="#1d1820" stroke-width="4"/>
+    <ellipse cx="218" cy="424" rx="34" ry="26" fill="#332c36" stroke="#1d1820" stroke-width="4"/>
+    <path d="M114 414 q28 -12 56 0 M190 414 q28 -12 56 0" stroke="#6f6672" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M118 430 q12 -6 24 -3 M194 430 q12 -6 24 -3" stroke="#6f6672" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/>
+    <rect x="132" y="408" width="12" height="10" rx="3" fill="#8e8790" stroke="#1d1820" stroke-width="2"/>
+    <rect x="208" y="408" width="12" height="10" rx="3" fill="#8e8790" stroke="#1d1820" stroke-width="2"/>
+  </g>
+</svg>

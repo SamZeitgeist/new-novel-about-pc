@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070a1c"/>
+      <stop offset="0.55" stop-color="#141232"/>
+      <stop offset="1" stop-color="#2a1a3e"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1622"/>
+      <stop offset="1" stop-color="#0a0710"/>
+    </linearGradient>
+    <linearGradient id="snowBank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8e2f2"/>
+      <stop offset="1" stop-color="#a99fc0"/>
+    </linearGradient>
+    <linearGradient id="glassG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd9ea" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#ff9ecb" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="pinkGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff6fae" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff6fae" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9c9" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffe9c9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.4" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.78"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <!-- небо -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1290" cy="130" r="46" fill="#f3e7ff" opacity="0.75"/>
+  <circle cx="1290" cy="130" r="96" fill="#cdb8ff" opacity="0.12" filter="url(#soft)"/>
+
+  <!-- дальние дома -->
+  <g fill="#0d0b1d">
+    <rect x="0" y="250" width="180" height="450"/>
+    <rect x="170" y="300" width="150" height="400"/>
+    <rect x="640" y="270" width="140" height="430"/>
+    <rect x="770" y="320" width="120" height="380"/>
+  </g>
+  <g fill="#ffcf8a" opacity="0.5">
+    <rect x="34" y="292" width="12" height="16"/><rect x="70" y="292" width="12" height="16"/>
+    <rect x="106" y="330" width="12" height="16"/><rect x="34" y="368" width="12" height="16"/>
+    <rect x="204" y="346" width="12" height="16"/><rect x="240" y="384" width="12" height="16"/>
+    <rect x="276" y="346" width="12" height="16"/>
+    <rect x="668" y="316" width="12" height="16"/><rect x="704" y="354" width="12" height="16"/>
+    <rect x="740" y="316" width="12" height="16"/>
+    <rect x="800" y="366" width="12" height="16"/><rect x="836" y="404" width="12" height="16"/>
+  </g>
+
+  <!-- дом с вывеской DNS -->
+  <g>
+    <rect x="920" y="200" width="680" height="520" fill="#1a1424"/>
+    <rect x="920" y="200" width="680" height="34" fill="#251b30"/>
+    <rect x="944" y="252" width="632" height="94" rx="8" fill="#120c18"/>
+    <!-- вывеска -->
+    <circle cx="1260" cy="300" r="190" fill="url(#pinkGlow)"/>
+    <text x="1260" y="340" font-family="Arial Black, Arial, sans-serif" font-size="108" font-weight="900"
+      fill="#ff6fae" text-anchor="middle" letter-spacing="6">DNS</text>
+    <text x="1260" y="340" font-family="Arial Black, Arial, sans-serif" font-size="108" font-weight="900"
+      fill="none" stroke="#ffd1e6" stroke-width="2" opacity="0.8" text-anchor="middle" letter-spacing="6">DNS</text>
+    <!-- витрина -->
+    <rect x="960" y="392" width="420" height="250" rx="6" fill="#100a16" stroke="#3a2a40" stroke-width="6"/>
+    <rect x="974" y="406" width="392" height="222" fill="url(#glassG)" opacity="0.75"/>
+    <rect x="1060" y="446" width="90" height="150" rx="6" fill="#2a1a33" opacity="0.55"/>
+    <rect x="1170" y="486" width="120" height="110" rx="6" fill="#2a1a33" opacity="0.5"/>
+    <rect x="1000" y="470" width="40" height="126" rx="4" fill="#2a1a33" opacity="0.5"/>
+    <!-- дверь -->
+    <rect x="1410" y="392" width="150" height="250" rx="5" fill="#1b1222" stroke="#3a2a40" stroke-width="6"/>
+    <rect x="1424" y="406" width="122" height="222" fill="url(#glassG)" opacity="0.65"/>
+    <rect x="1490" y="500" width="6" height="42" rx="3" fill="#ffd1e6"/>
+    <path d="M1408 384 h154 l-10 -18 h-134 z" fill="#ff6fae" opacity="0.5"/>
+  </g>
+
+  <!-- фонарь -->
+  <g>
+    <rect x="742" y="330" width="12" height="440" fill="#231a2c"/>
+    <path d="M748 336 q64 -18 92 8" stroke="#231a2c" stroke-width="12" fill="none"/>
+    <ellipse cx="850" cy="368" rx="26" ry="14" fill="#ffe9c9"/>
+    <ellipse cx="850" cy="380" rx="120" ry="90" fill="url(#lampGlow)"/>
+    <ellipse cx="850" cy="760" rx="180" ry="36" fill="#ffe9c9" opacity="0.08" filter="url(#soft2)"/>
+  </g>
+
+  <!-- тротуар и сугробы -->
+  <rect x="0" y="700" width="1600" height="70" fill="#241b2e"/>
+  <path d="M0 720 q120 -26 260 -6 q140 20 300 4 q180 -18 340 8 q170 26 340 -4 q180 -22 360 8 v40 H0 z" fill="url(#snowBank)" opacity="0.92"/>
+  <path d="M0 756 q220 -22 440 -2 q220 20 440 -4 q200 -22 400 4 q120 16 320 -2 v24 H0 z" fill="#efe9f8" opacity="0.6"/>
+
+  <!-- дорога -->
+  <rect x="0" y="770" width="1600" height="130" fill="url(#road)"/>
+  <rect x="0" y="806" width="160" height="8" rx="4" fill="#e9e2f5" opacity="0.25"/>
+  <rect x="240" y="806" width="160" height="8" rx="4" fill="#e9e2f5" opacity="0.25"/>
+  <rect x="480" y="806" width="160" height="8" rx="4" fill="#e9e2f5" opacity="0.25"/>
+  <rect x="720" y="806" width="160" height="8" rx="4" fill="#e9e2f5" opacity="0.25"/>
+  <rect x="960" y="806" width="160" height="8" rx="4" fill="#e9e2f5" opacity="0.25"/>
+  <rect x="1200" y="806" width="160" height="8" rx="4" fill="#e9e2f5" opacity="0.25"/>
+  <rect x="1440" y="806" width="160" height="8" rx="4" fill="#e9e2f5" opacity="0.25"/>
+  <!-- отражение вывески на снегу и дороге -->
+  <ellipse cx="1300" cy="782" rx="260" ry="26" fill="#ff6fae" opacity="0.16" filter="url(#soft2)"/>
+  <ellipse cx="1300" cy="860" rx="300" ry="34" fill="#ff6fae" opacity="0.1" filter="url(#soft)"/>
+
+  <!-- снег -->
+  <g fill="#f4efff" opacity="0.85">
+    <circle cx="80" cy="120" r="3"/><circle cx="180" cy="210" r="2.4"/>
+    <circle cx="290" cy="90" r="2.8"/><circle cx="360" cy="260" r="2.2"/>
+    <circle cx="470" cy="160" r="3.2"/><circle cx="540" cy="330" r="2.4"/>
+    <circle cx="620" cy="120" r="2.6"/><circle cx="700" cy="240" r="3"/>
+    <circle cx="820" cy="100" r="2.4"/><circle cx="900" cy="280" r="2.8"/>
+    <circle cx="1010" cy="170" r="3"/><circle cx="1100" cy="90" r="2.2"/>
+    <circle cx="1200" cy="210" r="2.8"/><circle cx="1330" cy="120" r="2.4"/>
+    <circle cx="1440" cy="250" r="3"/><circle cx="1540" cy="140" r="2.6"/>
+    <circle cx="150" cy="420" r="2.2"/><circle cx="420" cy="470" r="2.6"/>
+    <circle cx="660" cy="430" r="2.4"/><circle cx="880" cy="520" r="2.2"/>
+    <circle cx="1080" cy="460" r="2.6"/><circle cx="1380" cy="500" r="2.4"/>
+    <circle cx="1560" cy="430" r="3"/><circle cx="60" cy="560" r="2.6"/>
+    <circle cx="340" cy="600" r="2.2"/><circle cx="580" cy="640" r="2.8"/>
+    <circle cx="810" cy="600" r="2.4"/><circle cx="1120" cy="640" r="2.2"/>
+    <circle cx="1420" cy="600" r="2.8"/><circle cx="200" cy="740" r="2.4"/>
+    <circle cx="700" cy="720" r="2.2"/><circle cx="1000" cy="700" r="2.6"/>
+  </g>
+  <g fill="#ffffff" opacity="0.35">
+    <circle cx="250" cy="340" r="1.6"/><circle cx="520" cy="220" r="1.4"/>
+    <circle cx="760" cy="380" r="1.6"/><circle cx="960" cy="360" r="1.4"/>
+    <circle cx="1180" cy="380" r="1.6"/><circle cx="1460" cy="340" r="1.4"/>
+    <circle cx="380" cy="520" r="1.5"/><circle cx="940" cy="560" r="1.4"/>
+    <circle cx="1240" cy="540" r="1.5"/><circle cx="540" cy="760" r="1.4"/>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#vignette)"/>
+</svg>

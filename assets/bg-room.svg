@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241329"/>
+      <stop offset="0.6" stop-color="#180d1d"/>
+      <stop offset="1" stop-color="#0e0812"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1030"/>
+      <stop offset="1" stop-color="#2a1a4a"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1020"/>
+      <stop offset="1" stop-color="#0a060d"/>
+    </linearGradient>
+    <radialGradient id="glowPink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff6fae" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff6fae" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="screenGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7fb6ff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7fb6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.45" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.75"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="soft2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <pattern id="stripes" width="64" height="64" patternUnits="userSpaceOnUse">
+      <rect width="64" height="64" fill="none"/>
+      <rect x="0" y="0" width="2" height="64" fill="#ff8fc4" opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#wall)"/>
+  <rect width="1600" height="900" fill="url(#stripes)"/>
+
+  <!-- гирлянда -->
+  <g opacity="0.85">
+    <path d="M-20 120 Q 400 200 800 130 T 1620 150" fill="none" stroke="#3a2438" stroke-width="3"/>
+    <g filter="url(#soft2)">
+      <circle cx="120" cy="140" r="16" fill="#ff8fc4"/>
+      <circle cx="330" cy="172" r="14" fill="#c8a2ff"/>
+      <circle cx="560" cy="168" r="16" fill="#ff8fc4"/>
+      <circle cx="790" cy="132" r="14" fill="#ffd166"/>
+      <circle cx="1030" cy="140" r="16" fill="#ff8fc4"/>
+      <circle cx="1260" cy="152" r="14" fill="#8fd6ff"/>
+      <circle cx="1480" cy="148" r="16" fill="#ff8fc4"/>
+    </g>
+    <circle cx="120" cy="140" r="5" fill="#ffe6f2"/>
+    <circle cx="330" cy="172" r="4" fill="#f0e6ff"/>
+    <circle cx="560" cy="168" r="5" fill="#ffe6f2"/>
+    <circle cx="790" cy="132" r="4" fill="#fff3cf"/>
+    <circle cx="1030" cy="140" r="5" fill="#ffe6f2"/>
+    <circle cx="1260" cy="152" r="4" fill="#dff2ff"/>
+    <circle cx="1480" cy="148" r="5" fill="#ffe6f2"/>
+  </g>
+
+  <!-- окно -->
+  <g>
+    <rect x="110" y="180" width="430" height="400" rx="10" fill="#0b0a18" stroke="#3a2a40" stroke-width="10"/>
+    <rect x="128" y="198" width="394" height="364" fill="url(#sky)"/>
+    <circle cx="420" cy="270" r="42" fill="#ffe9c9" opacity="0.9"/>
+    <circle cx="420" cy="270" r="70" fill="#ffe9c9" opacity="0.15" filter="url(#soft2)"/>
+    <g fill="#0a0f26">
+      <rect x="150" y="400" width="40" height="162"/>
+      <rect x="196" y="360" width="54" height="202"/>
+      <rect x="256" y="420" width="34" height="142"/>
+      <rect x="296" y="382" width="60" height="180"/>
+      <rect x="362" y="430" width="44" height="132"/>
+      <rect x="412" y="392" width="52" height="170"/>
+      <rect x="470" y="424" width="42" height="138"/>
+    </g>
+    <g fill="#ffcf8a" opacity="0.85">
+      <rect x="206" y="376" width="8" height="10"/><rect x="222" y="376" width="8" height="10"/>
+      <rect x="206" y="398" width="8" height="10"/><rect x="238" y="398" width="8" height="10"/>
+      <rect x="310" y="396" width="8" height="10"/><rect x="330" y="396" width="8" height="10"/>
+      <rect x="310" y="420" width="8" height="10"/><rect x="330" y="440" width="8" height="10"/>
+      <rect x="424" y="408" width="8" height="10"/><rect x="444" y="408" width="8" height="10"/>
+      <rect x="424" y="432" width="8" height="10"/>
+      <rect x="482" y="440" width="8" height="10"/>
+    </g>
+    <rect x="322" y="198" width="8" height="364" fill="#2a1f30"/>
+    <rect x="128" y="372" width="394" height="8" fill="#2a1f30"/>
+    <!-- шторы -->
+    <path d="M90 160 q40 220 10 460 l-70 0 l0 -470 z" fill="#2a1526" opacity="0.9"/>
+    <path d="M560 160 q-40 220 -10 460 l70 0 l0 -470 z" fill="#2a1526" opacity="0.9"/>
+    <path d="M120 180 q22 200 6 400" stroke="#402036" stroke-width="4" fill="none"/>
+    <path d="M520 180 q-22 200 -6 400" stroke="#402036" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- постер -->
+  <g transform="translate(690 210) rotate(-4)">
+    <rect width="190" height="250" rx="6" fill="#1c1120" stroke="#ff8fc4" stroke-opacity="0.35" stroke-width="3"/>
+    <path d="M95 150 l-42 -38 a26 26 0 1 1 42 -38 a26 26 0 1 1 42 38 z" fill="#ff6fae" opacity="0.85"/>
+    <rect x="28" y="180" width="134" height="6" rx="3" fill="#ff8fc4" opacity="0.3"/>
+    <rect x="46" y="196" width="98" height="6" rx="3" fill="#ff8fc4" opacity="0.2"/>
+    <rect x="60" y="212" width="70" height="6" rx="3" fill="#ff8fc4" opacity="0.15"/>
+  </g>
+
+  <!-- полка с кроликом -->
+  <g>
+    <rect x="900" y="360" width="330" height="14" rx="3" fill="#2b1c30"/>
+    <rect x="930" y="300" width="18" height="60" rx="2" fill="#241726"/>
+    <rect x="952" y="286" width="14" height="74" rx="2" fill="#31203a"/>
+    <rect x="970" y="306" width="20" height="54" rx="2" fill="#241726"/>
+    <g transform="translate(1090 286)">
+      <ellipse cx="0" cy="52" rx="34" ry="34" fill="#d8b8c8"/>
+      <ellipse cx="0" cy="14" rx="26" ry="24" fill="#e6cbd8"/>
+      <ellipse cx="-16" cy="-10" rx="8" ry="20" fill="#e6cbd8"/>
+      <ellipse cx="16" cy="-10" rx="8" ry="20" fill="#e6cbd8"/>
+      <circle cx="-9" cy="12" r="3" fill="#3a2438"/>
+      <circle cx="9" cy="12" r="3" fill="#3a2438"/>
+      <path d="M-6 22 q6 6 12 0" stroke="#3a2438" stroke-width="2" fill="none"/>
+      <path d="M-18 60 q18 10 36 0 l6 20 l-48 0 z" fill="#ff6fae" opacity="0.7"/>
+    </g>
+    <rect x="1180" y="316" width="34" height="44" rx="3" fill="#2a1a30"/>
+    <rect x="1218" y="326" width="26" height="34" rx="3" fill="#3a2440"/>
+  </g>
+
+  <!-- стол с ноутбуком -->
+  <g>
+    <rect x="960" y="600" width="600" height="18" rx="4" fill="#2b1c30"/>
+    <rect x="990" y="618" width="16" height="190" fill="#201428"/>
+    <rect x="1520" y="618" width="16" height="190" fill="#201428"/>
+    <ellipse cx="1240" cy="600" rx="230" ry="70" fill="url(#screenGlow)" opacity="0.5"/>
+
+    <!-- ноутбук -->
+    <g transform="translate(1120 470)">
+      <rect x="0" y="0" width="230" height="140" rx="8" fill="#151019" stroke="#3a2a40" stroke-width="3"/>
+      <rect x="10" y="10" width="210" height="120" rx="4" fill="#2b4a7a"/>
+      <text x="115" y="72" font-family="monospace" font-size="15" fill="#cfe4ff" text-anchor="middle" opacity="0.9">:(</text>
+      <rect x="28" y="92" width="174" height="4" rx="2" fill="#cfe4ff" opacity="0.5"/>
+      <rect x="48" y="104" width="134" height="4" rx="2" fill="#cfe4ff" opacity="0.3"/>
+      <path d="M-14 140 h258 l22 22 h-302 z" fill="#1c1520"/>
+    </g>
+    <ellipse cx="1235" cy="640" rx="120" ry="26" fill="#7fb6ff" opacity="0.08"/>
+
+    <!-- банка энергетика -->
+    <g transform="translate(1430 520)">
+      <rect width="44" height="80" rx="8" fill="#e85c9a"/>
+      <rect x="6" y="14" width="32" height="10" rx="3" fill="#ffd9e8" opacity="0.8"/>
+      <rect x="0" y="0" width="44" height="12" rx="6" fill="#cdbfd6"/>
+    </g>
+    <!-- кружка -->
+    <g transform="translate(1510 546)">
+      <rect width="46" height="52" rx="6" fill="#f3dbe8"/>
+      <path d="M46 12 q22 4 0 28" stroke="#f3dbe8" stroke-width="7" fill="none"/>
+      <ellipse cx="23" cy="6" rx="20" ry="6" fill="#fff2f8"/>
+    </g>
+  </g>
+
+  <!-- пол -->
+  <rect x="0" y="790" width="1600" height="110" fill="url(#floor)"/>
+  <ellipse cx="800" cy="820" rx="520" ry="60" fill="#ff6fae" opacity="0.05" filter="url(#soft)"/>
+
+  <!-- розовая лента света -->
+  <rect x="0" y="852" width="1600" height="10" fill="#ff6fae" opacity="0.5" filter="url(#soft2)"/>
+  <rect x="0" y="856" width="1600" height="3" fill="#ffb8d9" opacity="0.8"/>
+
+  <rect width="1600" height="900" fill="url(#vignette)"/>
+</svg>
